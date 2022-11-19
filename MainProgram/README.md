@@ -11,47 +11,59 @@
 - Рекурсивная функция движется от листьев к корню и пытается объединить двух близнецов, если они свободны. Список также обновляется для каждого уровня степени 2.
 
 # Образец вывода
-В приведенном ниже контексте показаны результаты нескольких запусков программы.
+
+В приведенном ниже контексте показаны результаты нескольких запусков программы:
+
+
 
 Sample Run 1
-------------
+
 Internal Fragmentation (KB)= 15 ----- % 0.234375
 
-of Allocation Requests Denied = 9087
+hash of Allocation Requests Denied = 9087
 
 External Fragmentation = 0
+
+----------------
 
 Sample Run 2
--------------
+
 Internal Fragmentation (KB)= 8 -----% 0.125
 
-of Allocation Requests Denied = 5971
+hash of Allocation Requests Denied = 5971
 
 External Fragmentation = 0
+
+----------------
 
 Sample Run 3
--------------
+
 Internal Fragmentation (KB)= 2 -----% 0.03125
 
-of Allocation Requests Denied = 0
+hash of Allocation Requests Denied = 0
 
 External Fragmentation = 0
+
+----------------
 
 Sample Run 4
-------------
+
 Internal Fragmentation (KB)= 16 -----% 0.25
 
-of Allocation Requests Denied = 6422
+hash of Allocation Requests Denied = 6422
 
 External Fragmentation = 0
+
+----------------
 
 Sample Run 5
-------------
+
 Internal Fragmentation (KB)= 28 -----% 0.4375
 
-of Allocation Requests Denied = 4990
+hash of Allocation Requests Denied = 4990
 
 External Fragmentation = 0
+
 
 
 # Наблюдения в ходе реализации
